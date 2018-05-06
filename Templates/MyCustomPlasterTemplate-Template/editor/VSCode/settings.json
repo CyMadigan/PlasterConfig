@@ -1,5 +1,16 @@
 {
+    //-------- Files configuration --------
+
     // When enabled, will trim trailing whitespace when you save a file.
     "files.trimTrailingWhitespace": true,
-    "files.defaultLanguage": "powershell"
+    "files.defaultLanguage": "powershell",
+
+    //-------- PowerShell Configuration --------
+
+    // The path of the shell that the terminal uses on Windows. When using shells shipped with Windows (cmd, PowerShell or Bash on Ubuntu).
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+
+    // Use a custom PowerShell Script Analyzer settings file for this workspace.
+    // Relative paths for this setting are always relative to the workspace root dir.
+    "powershell.scriptAnalysis.settingsPath": "src/ScriptAnalyzerSettings.psd1"
 }

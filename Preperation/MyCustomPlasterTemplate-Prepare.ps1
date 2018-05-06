@@ -3,7 +3,7 @@ $manifestProperties = @{
     Title = 'My Custom Plaster Template'
     TemplateName = 'MyCustomPlasterTemplate'
     TemplateVersion = '0.0.1'
-    Author = 'Markus Kraus'
+    Author = 'Cyril Madigan'
 }
 
 New-PlasterManifest @manifestProperties
